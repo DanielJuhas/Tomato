@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Lawn Mowing Tips and Tricks</title>
+    <link rel="stylesheet" type="text/css" href="content.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#watering">Watering</a></li>
+          <li><a href="#preventing-grubs">Preventing Grubs</a></li>
+          <li><a href="#feeding">Feeding</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Lawn Mowing Tips and Tricks</h1>
+      <section id="watering">
+        <h2>Watering Your Lawn</h2>
+        <p>Proper watering is essential for a healthy lawn. Here are some tips for watering your lawn effectively:</p>
+        <ul>
+          <li>Water your lawn early in the morning or late in the evening to minimize evaporation.</li>
+          <li>Water deeply and infrequently, rather than lightly and frequently.</li>
+          <li>Make sure the water reaches the roots of the grass, which are typically 6-12 inches deep.</li>
+        </ul>
+      </section>
+      <section id="preventing-grubs">
+        <h2>Preventing Grubs</h2>
+        <p>Grubs can be a problem for your lawn. Here are some tips for preventing grubs:</p>
+        <ul>
+          <li>Mow your lawn regularly to keep the grass short and discourage grubs from laying their eggs.</li>
+          <li>Keep your lawn healthy and well-watered, as healthy grass is less susceptible to grub damage.</li>
+          <li>Consider using a grub preventer, which can be applied to your lawn to prevent grubs from hatching.</li>
+        </ul>
+      </section>
+      <section id="feeding">
+        <h2>Feeding Your Lawn</h2>
+        <p>Fertilizing your lawn can help keep it healthy and lush. Here are some tips for feeding your lawn:</p>
+        <ul>
+          <li>Choose a fertilizer that is formulated for the type of grass you have and the time of year.</li>
+          <li>Apply the fertilizer evenly and according to the package instructions.</li>
+          <li>Water your lawn thoroughly after fertilizing to help the nutrients reach the roots.</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

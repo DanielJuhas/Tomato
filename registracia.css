@@ -1,0 +1,49 @@
+<style>
+  body {
+    background-color: green;
+    background-image: linear-gradient(to right, white, green);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animate 10s linear infinite;
+  }
+
+  header h1 {
+    color: white;
+    text-align: center;
+  }
+
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    width: 500px;
+  }
+
+  label, input[type="submit"] {
+    color: green;
+    font-size: 1.2em;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid green;
+    width: 100%;
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+</style>

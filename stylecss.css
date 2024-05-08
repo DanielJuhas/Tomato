@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+/* Style pre header */
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 1em;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #333;
+}
+
+/* Styl hlavneho kontentu*/
+main {
+  margin-top: 80px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.gallery {
+  width: 80%;
+}
+.gallery .items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.discussion {
+  width: 80%;
+}
+.articles {
+  height: 2.5em;
+}
+.discussion form {
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+  vertical-align: top;
+}
+.comment .header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.comment .header p {
+  font-size: 0.75em;
+}
+.comment {
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+}
+.comment img{
+  padding: 1em;
+  height: 10em;
+  max-width: 20em;
+}
+.btn {
+  padding: 1em;
+  margin-right: 1em;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  vertical-align: top;
+}
